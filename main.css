@@ -6,6 +6,11 @@ header {
     background-color: #f4efec;
 }
 
+img {
+    width: auto;
+    height: auto;
+}
+
 h1, small {
     font-family: 'Playfair Display', serif;
 }
@@ -17,7 +22,7 @@ h2 {
 }
 
 .nav-link, .nav-link:hover {
-    color: #ee9777;
+    color: black;
 }
 
 header .nav-link.active:hover,
@@ -95,6 +100,6 @@ a {
     }
 
     body {
-        max-width: 400px;
+        min-width: 400px;
     }
 }
