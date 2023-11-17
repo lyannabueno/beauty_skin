@@ -1,0 +1,100 @@
+#produtos .row {
+    justify-content: space-evenly;
+}
+
+header {
+    background-color: #f4efec;
+}
+
+h1, small {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.nav-link, .nav-link:hover {
+    color: #ee9777;
+}
+
+header .nav-link.active:hover,
+header .nav-link:hover {
+    color: slategray;
+}
+
+.btn {
+    background-color: #f4efec;
+}
+
+.btn:hover {
+    background-color: #f0d9d1;
+}
+
+li .nav-link, #produtos nav {
+    font-weight: 400;
+}
+
+#produtos .nav-link.active {
+    background-color: #fff;
+    color: slategray;
+}
+
+#produtos .nav.nav-pills {
+    padding: 0 0;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    background-color: #f4efec;
+}
+
+footer > .container {
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ee9777;
+}
+
+@media screen and (max-width:767px) {
+    aside nav {
+        align-items: center;
+    }
+
+    article.card {
+        margin-bottom: 20px;
+    }
+
+    .social-links {
+        padding-left: 0;
+    }
+
+    small {
+        padding-right: 9px;
+    }
+
+    #cabecalho .nav {
+        width: auto;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    header a.nav-link {
+        padding-right: 0;
+    }
+
+    body {
+        max-width: 400px;
+    }
+}

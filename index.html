@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Skin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Work+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class='sticky-top' id="cabecalho">
+        <div class="container">
+            <div class="navbar">
+                <h1>Beauty Skin</h1>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"> <!-- 'data-bs-toggle' define o tipo de interação que ativará ou desativará um componente e 'data-bs-target' especifica o destino do componente que será ativado ou desativado -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse" id="menu"> <!-- 'navbar-collapse' agrupa os itens de navegação quando a tela é redimensionada para tamanhos menores -->
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre-a-loja">
+                                <i class="bi bi-house-door me-1"></i>
+                                SOBRE A LOJA
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">
+                                <i class="bi bi-cart3 me-1"></i>
+                                PRODUTOS
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                CONTATO
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="introducao">
+            <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide1.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide2.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide3.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide4.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide5.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide6.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide7.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide8.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class='w-100' src="images/slide/slide9.jpg">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class='active' data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="7"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="8"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-a-loja">
+            <div class="container">
+                <article>
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-center">Sobre a Beauty Skin</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, dolores odit. Placeat odio corporis provident eaque praesentium expedita ullam vel suscipit, et quaerat, sint ut neque laudantium blanditiis facilis aliquid. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ullam dolor ad architecto consequatur, et sed eveniet vitae cum vero adipisci.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <main>
+                <div class="container">
+                    <h2>Produtos</h2>
+                    <div class="row">
+                        <aside class="col-lg-2 col-md-2">
+                            <nav class="nav nav-pills flex-column">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#hair" style='padding-left: 0;' class="text-start nav-link">Cabelos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#oil" style='padding-left: 0;' class="text-start nav-link">Essências</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#skin" style='padding-left: 0;' class="text-start nav-link">Skin Care</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#make" style='padding-left: 0; padding-bottom: 20px;' class="text-start nav-link">Maquiagem</button>
+                            </nav>
+                        </aside>
+
+                        <div class="col-lg-10 col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane" id="hair">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-hair/escova.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Escova Polvo</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-hair/presilha.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Presilha</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-hair/gelatina.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Gelatina</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="oil">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-oleo/aromatizador.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Aromatizante</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-oleo/umidificador.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Umidificador</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-oleo/oleos.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Blend de Óleos</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="skin">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-skin/limpeza.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Escova Elétrica</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-skin/mascara.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Máscara Fácial</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-skin/protetor.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Protetor Solar</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="make">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-make/base.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Base Líquida</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-make/batom.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Gloss Labial</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione veritatis.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                            
+                                        <div class="col-lg-3 col-md-4">
+                                            <article class="card">
+                                                <img src="images/produtos-make/corretor.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Corretor Líquido</h4>
+                                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur fugit tenetur ratione.</p>
+                                                    <a href="#" class="btn">Adicionar no carrinho</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="pb-3">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" name='nome' class="form-control" placeholder="Seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name='email' class="form-control" placeholder="Seu e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" id='phone' name='telefone' class="form-control" placeholder="Seu telefone">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name='ProdutodeInteresse' class="form-control" placeholder="Produto de interesse">
+                            </div>
+                            <div class="mb-5">
+                                <textarea class="form-control" placeholder="Sua mensagem"></textarea required>
+                                    <button type="submit" style="margin-bottom:48px;" class="btn w-100 mt-3">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container d-flex pt-3">
+                <p>2023 &copy; Todos os direitos reservados - Beauty Skin</p>
+                <small>made by Ana Bueno</small>
+                <ul class="social-links d-flex">
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+    
+                    <li class="ms-3 me-3">
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/validate_form.js"></script>
+    <script src="lib/mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
