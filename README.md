@@ -4,9 +4,17 @@ Este projeto é uma loja virtual dedicada à venda de produtos de beleza e cuida
 
 ## Funcionalidades 🌟
 
-- **Compra de Produtos:** Os usuários podem explorar e comprar produtos de beleza e cuidados pessoais de forma fácil e segura.
 - **Consulta de Informações:** Informações detalhadas e especificações de cada produto estão disponíveis para ajudar os clientes a fazerem escolhas informadas.
+
+![image](https://github.com/lyannabueno/beauty_skin/assets/130186281/ee4ae222-8125-4e2b-9605-0afc0fa9fc27)
+
+- **Compra de Produtos:** Os usuários podem explorar e comprar produtos de beleza e cuidados pessoais de forma fácil e segura.
+
+![image](https://github.com/lyannabueno/beauty_skin/assets/130186281/b52b4786-ed29-46e6-a53c-1d0ffeba0031)
+
 - **Contato Direto:** Para dúvidas ou assistência, os usuários podem entrar em contato com a equipe da loja através de um formulário de contato dedicado.
+
+![image](https://github.com/lyannabueno/beauty_skin/assets/130186281/9ba30553-3a8b-4f80-a622-0d5f10792641)
 
 ## Tecnologias Utilizadas 📚
 
