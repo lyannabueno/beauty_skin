@@ -1,55 +1,52 @@
 # Beauty Skin 🫧
 
-Este projeto é uma loja virtual dedicada à venda de produtos de beleza e cuidados pessoais. Com uma ampla seleção de produtos, desde cuidados com a pele até aromaterapia, a Beauty Skin visa proporcionar uma experiência de compra online agradável e conveniente para todos os seus clientes.
-
-## Funcionalidades 🌟
-
-- **Consulta de Informações:** Informações detalhadas e especificações de cada produto estão disponíveis para ajudar os clientes a fazerem escolhas informadas.
-
-![image](https://github.com/lyannabueno/beauty_skin/assets/130186281/ee4ae222-8125-4e2b-9605-0afc0fa9fc27)
-
-- **Compra de Produtos:** Os usuários podem explorar e comprar produtos de beleza e cuidados pessoais de forma fácil e segura.
-
 ![image](https://github.com/lyannabueno/beauty_skin/assets/130186281/b52b4786-ed29-46e6-a53c-1d0ffeba0031)
 
-- **Contato Direto:** Para dúvidas ou assistência, os usuários podem entrar em contato com a equipe da loja através de um formulário de contato dedicado.
+## Features 🌟
 
-![image](https://github.com/lyannabueno/beauty_skin/assets/130186281/9ba30553-3a8b-4f80-a622-0d5f10792641)
+- **Information Lookup:** Detailed information and specifications of each product are available to help customers make informed choices.
 
-## Tecnologias Utilizadas 📚
+- **Product Purchase:** Users can easily and securely explore and buy beauty and personal care products.
 
-- **HTML5:** Estrutura da página web.
-- **CSS3:** Estilização da interface do usuário.
-- **JavaScript:** Interações dinâmicas na página, melhorando a usabilidade e a interação do usuário.
-- **jQuery 3.7.1:** Utilizado para simplificar o JavaScript, como na validação de formulários e manipulação do DOM para uma experiência de usuário mais interativa.
-- **jQuery Mask Plugin 1.14.16** Máscara de entrada no campo de telefone do formulário.
-- **jQuery Validate 1.19.5:** Garante que os dados inseridos no campo de formulário sejam válidos e completos, com regras específicas para cada campo
-- **Bootstrap 5.3.2:** Estiliza e estrutura o layout do site, incluindo o sistema de grid para layouts responsivos, componentes de interface como botões e formulários, e utilitários de CSS para margens, padding e alinhamento
+- **Direct Contact:** For questions or assistance, users can contact the store's team through a dedicated contact form.
 
-## Como Navegar 💄
+## Technologies Used 📚
 
-Para entrar no site e adquirir um produto, você não precisa instalar nada. Simplesmente clone ou baixe o projeto para o seu computador e abra o arquivo `index.html` em um navegador de sua escolha.
+<p align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+</p>
 
-### Passos para Executar
+#### What I learned in this project:
+- Hiding elements until a specific element is clicked.
 
-1. **Clone ou baixe o repositório:**
+## How to Navigate 💄
+
+To visit the site and purchase a product, you don't need to install anything. Simply clone or download the project to your computer and open the `index.html` file in a browser of your choice.
+
+### Steps to Run
+
+1. **Clone or download the repository:**
 
 ```bash
 https://github.com/lyannabueno/beauty_skin.git
 ```
 
-2. **Abra o arquivo `index.html`:**
+2. **Open the `index.html` file:**
 
-Localize o arquivo `index.html` no diretório do projeto e abra-o em um navegador web.
+Locate the `index.html` file in the project directory and open it in a web browser.
 
-## Contribuições 🫂
+## Contributions 🫂
 
-Contribuições para melhorar a calculadora de médias são bem-vindas. Se você tem uma sugestão para melhorar este projeto, sinta-se à vontade para criar um fork do repositório, fazer suas alterações e enviar um pull request.
+Contributions to improve the project are welcome. If you have a suggestion to enhance this project, feel free to fork the repository, make your changes, and submit a pull request.
 
-## Contato 📩
+## Contact 📩
 
 Ana Bueno - anabuenogomes@hotmail.com
 
-Link do projeto: https://beauty-skin-gpzbyzg6i-lyannabueno.vercel.app
+Project link: https://beauty-skin-gpzbyzg6i-lyannabueno.vercel.app
 
 ---
